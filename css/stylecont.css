@@ -3,13 +3,13 @@
 body{
     background-color: aliceblue;
     font-family: "Prompt", sans-serif;
+    text-align: center;
 }
 header{
     background-image: url(https://www.xtrafondos.com/wallpapers/walensee-lago-en-suiza-2520.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    text-align: center;
 }
 header img{
     width: 150px;
@@ -46,66 +46,8 @@ header h3{
     text-shadow: #414141;
     transform: scale(1.1) ;
 }
-.tarjeta{
-    display:flex;
-    justify-content: center;
-}
 footer{
     text-align: center;
     padding: 20px;
     background-color: lightgray;
-}
-.card{
-    margin: 50px;
-    width: 300px;
-    border-radius: 20px;
-    overflow: hidden;
-    box-shadow: 0px 5px 10px #ccc;
-}
-.card img{
-    width: 100%;
-}
-.card-content{
-    padding: 25px;
-}
-.card:hover{
-    background-color: #e2e2e2;
-    transform: scale(1.05);
-}
-.about h2{
-    font-size: 25px;
-    color: #414141;
-    padding: 20px;
-    margin-right: 10px;
-}
-.about img{
-    width: 250px;
-    filter: drop-shadow(5px 5px 5px #414141);
-    padding: 20px;
-}
-.about{
-    margin: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: antiquewhite;
-    box-shadow: 1px 5px 10px #414141;
-    width: 800px;
-    padding: 20px;
-
-}
-.about p{
-    font-size: 17px;
-    display: flex;
-    padding: 17px;
-}
-.title-main {
-    font-size: 36px;
-    font-weight: bold;
-    color: #2c3e50;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-top: 20px;
-    text-shadow: 2px 2px 5px (#000000)
 }

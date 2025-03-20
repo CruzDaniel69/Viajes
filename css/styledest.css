@@ -3,20 +3,53 @@ body{
     background-color: aliceblue;
     font-family: "Prompt", sans-serif;
 }
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    background-color: aliceblue;
+    font-family: "Prompt", sans-serif;
+    text-align: center;
+}
 header{
-    background-color: rgb(52, 146, 209);
+    background-image: url(https://www.xtrafondos.com/wallpapers/walensee-lago-en-suiza-2520.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 header img{
     width: 150px;
     margin-left: 20px;
-    display: flex;
+    filter: drop-shadow(10px 10px 10px #414141);
     justify-content: center;
+    padding: 6px;
 }
-.menu{
+nav li{
     display: inline;
-    text-align: center;
+    padding: 40px;
+    font-size: 25px;
+}
+nav a{
     text-decoration: none;
-    text-decoration: black;
+    color: aliceblue;
+}
+header h1{
+    font-size: 50px;
+    color: aliceblue;
+}
+header h3{
+    font-family: "Shadows Into Light", cursive;
+    font-size: 30px;
+    color: aliceblue;
+}
+header h1{
+    text-shadow: 1px 5px 10px #414141;
+}
+header h3{
+    text-shadow: 1px 5px 10px #414141;
+}
+.idc li:hover{
+    text-shadow: #414141;
+    transform: scale(1.1) ;
 }
 .tarjeta{
     display:flex;
@@ -55,4 +88,9 @@ header img{
 }
 .logo{
     width: 100px;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: lightgray;
 }
